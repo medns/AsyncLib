@@ -31,6 +31,7 @@ exports.each = function(context, fn, params, callback) {
 };
 
 exports.if = function(expression, context, fn, params, callback) {
+	expression = !!expression;
 	if (expression) {
 		fn.apply(context, params, function() {
 			callback.apply(null, [expression].concat(_slice(arguments)));
