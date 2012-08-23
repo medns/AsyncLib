@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/medns/AsyncLib.png)](http://travis-ci.org/medns/AsyncLib)
 AsyncLib
 ========
 
